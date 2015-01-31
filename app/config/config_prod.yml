@@ -1,0 +1,9 @@
+imports:
+    - { resource: config.yml }
+assetic:
+  use_controller: false
+  bundles:
+    - KulaCoreFrameworkBundle        
+    - KulaCoreLoginBundle
+    - TwigBundle
+    - AsseticBundle

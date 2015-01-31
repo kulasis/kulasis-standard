@@ -1,0 +1,35 @@
+{
+    "name": "kulasis/standard-edition",
+    "homepage": "http://kulasis.org",
+    "license": "MIT",
+    "type": "project",
+    "description": "The \"Kula SIS Standard Edition\" distribution",
+    "authors": [
+        {
+            "name": "Makoa Jacobsen",
+            "email": "makoa@makoajacobsen.com",
+            "homepage": "http://www.makoajacobsen.com/"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.3",
+        "kulasis/kulasis": "master"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "symfony-app-dir": "app",
+        "symfony-web-dir": "web",
+    },
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/kulasis"
+      }
+    ]
+}

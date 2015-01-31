@@ -1,0 +1,3 @@
+KulaFrameworkBundle_Extra:
+    resource: .
+    type: kula_routing
