@@ -14,9 +14,7 @@
     "autoload": {
         "psr-0": { "": "src/" }
     },
-    "minimum-stability": "dev",
     "require": {
-        "php": ">=5.3.3",
         "kulasis/kulasis": "dev-master"
     },
     "config": {
@@ -25,11 +23,5 @@
     "extra": {
         "symfony-app-dir": "app",
         "symfony-web-dir": "web"
-    },
-    "repositories": [
-      {
-        "type": "vcs",
-        "url": "https://github.com/kulasis/kulasis"
-      }
-    ]
+    }
 }
