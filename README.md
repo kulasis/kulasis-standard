@@ -1,7 +1,7 @@
 ### Installation Instructions
 
 1. Clone this git repository.
-2. `git clone https://github.com/kulasis/standard-edition.git`
+`git clone https://github.com/kulasis/standard-edition.git`
 
 2. Run Composer installer.  Command assumes Composer installed and as system command.
 `composer install`
