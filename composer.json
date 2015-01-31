@@ -17,7 +17,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=5.3.3",
-        "kulasis/kulasis": "master"
+        "kulasis/kulasis": "dev-master"
     },
     "config": {
         "bin-dir": "bin"
