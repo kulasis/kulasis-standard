@@ -1,5 +1,9 @@
 parameters:
   instance_name: "Kula SIS"
+  report_institution_name: "Kula School"
+  report_institution_address_line1: "123 Abc Rd."
+  report_institution_address_line2: "Portland, OR 12345"
+  report_logo_path: "/web/images/logo_vertical.png"
   mailer_transport: smtp
   mailer_host: 127.0.0.1
   mailer_user: null
