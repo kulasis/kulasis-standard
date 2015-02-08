@@ -12,6 +12,7 @@ class AppKernel extends Kernel
           new Kula\Core\Bundle\ConstituentBundle\KulaCoreConstituentBundle(),
           new Kula\Core\Bundle\LoginBundle\KulaCoreLoginBundle(),
           new Kula\Core\Bundle\SystemBundle\KulaCoreSystemBundle(),
+          new Kula\Core\Bundle\QueryBundle\KulaCoreQueryBundle(),
           new Kula\Core\Bundle\HomeBundle\KulaCoreHomeBundle(),
           new Kula\HEd\Bundle\SchoolBundle\KulaHEdSchoolBundle(),
           new Kula\HEd\Bundle\StudentBundle\KulaHEdStudentBundle(),

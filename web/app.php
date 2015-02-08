@@ -20,8 +20,6 @@ define('KULA_ROOT', dirname(getcwd()));
 
 $loader = require_once __DIR__.'/../app/autoload.php';
 
-require_once KULA_ROOT . '/app/config/config.php';
-
 require_once __DIR__.'/../app/AppKernel.php';
 
 $kernel = new AppKernel('prod', false);
