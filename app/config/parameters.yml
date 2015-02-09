@@ -16,3 +16,6 @@ parameters:
   debug_redirects: false
   google_client_id: 
   google_client_secret: 
+  exception_send_email: false
+  exception_to_email: 
+  exception_from_email: 
