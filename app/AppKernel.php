@@ -29,8 +29,7 @@ class AppKernel extends Kernel
         new Kula\K12\Bundle\SchoolBundle\KulaK12SchoolBundle(),
         new Kula\K12\Bundle\StudentBundle\KulaK12StudentBundle(),
         new Kula\K12\Bundle\SchedulingBundle\KulaK12SchedulingBundle(),
-        new Kula\K12\Bundle\BillingBundle\KulaK12BillingBundle(),
-        new OCACBundle\OCACBundle(),
+        new Kula\K12\Bundle\BillingBundle\KulaK12BillingBundle()
       ];
 
       if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
