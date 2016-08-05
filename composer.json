@@ -17,12 +17,13 @@
     "require": {
         "kulasis/kulasis": "dev-master"
     },
-    "config": {
-        "bin-dir": "bin"
-    },
     "extra": {
-        "symfony-app-dir": "app",
-        "symfony-web-dir": "web"
+      "symfony-app-dir": "app",
+      "symfony-bin-dir": "bin",
+      "symfony-var-dir": "var",
+      "symfony-web-dir": "web",
+      "symfony-tests-dir": "tests",
+      "symfony-assets-install": "relative"
     },
     "repositories": [
       {
