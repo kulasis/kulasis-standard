@@ -167,3 +167,11 @@ default:
     host: localhost
     collation: utf8_unicode_ci
     prefix: ''
+  additional: 
+    driver: mysql
+    database: kulasis_additional
+    username: root
+    password: 
+    host: localhost
+    collation: utf8_unicode_ci
+    prefix: ''
