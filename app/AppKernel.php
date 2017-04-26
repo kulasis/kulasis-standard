@@ -20,16 +20,12 @@ class AppKernel extends Kernel
         new Kula\Core\Bundle\SystemBundle\KulaCoreSystemBundle(),
         new Kula\Core\Bundle\QueryBundle\KulaCoreQueryBundle(),
         new Kula\Core\Bundle\HomeBundle\KulaCoreHomeBundle(),
+        new Kula\Core\Bundle\BillingBundle\KulaCoreBillingBundle(),
         new Kula\HEd\Bundle\SchoolBundle\KulaHEdSchoolBundle(),
         new Kula\HEd\Bundle\StudentBundle\KulaHEdStudentBundle(),
         new Kula\HEd\Bundle\SchedulingBundle\KulaHEdSchedulingBundle(),
         new Kula\HEd\Bundle\GradingBundle\KulaHEdGradingBundle(),
-        new Kula\HEd\Bundle\BillingBundle\KulaHEdBillingBundle(),
-        new Kula\HEd\Bundle\FinancialAidBundle\KulaHEdFinancialAidBundle(),
-        new Kula\K12\Bundle\SchoolBundle\KulaK12SchoolBundle(),
-        new Kula\K12\Bundle\StudentBundle\KulaK12StudentBundle(),
-        new Kula\K12\Bundle\SchedulingBundle\KulaK12SchedulingBundle(),
-        new Kula\K12\Bundle\BillingBundle\KulaK12BillingBundle()
+        new Kula\HEd\Bundle\FinancialAidBundle\KulaHEdFinancialAidBundle()
       ];
 
       if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
