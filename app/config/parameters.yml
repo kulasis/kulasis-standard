@@ -19,3 +19,7 @@ parameters:
   exception_send_email: false
   exception_to_email: 
   exception_from_email: 
+  virtualmerchant_url:  
+  virtualmerchant_merchant_id: 
+  virtualmerchant_user_id: 
+  virtualmerchant_pin: 
